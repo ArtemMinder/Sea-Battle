@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>textures/background.png</file>
+        <file>textures/damaged.png</file>
+        <file>textures/killed.png</file>
+        <file>textures/ship.png</file>
+        <file>textures/shot.png</file>
+        <file>textures/buttonBackgtound.png</file>
+    </qresource>
+</RCC>
