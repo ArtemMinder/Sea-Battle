@@ -7,7 +7,6 @@
 #include <QFile>
 #include <QRegExp>
 #include "Game.h"
-#include "Utility.h"
 #include "Connect.h"
 #include "Field.h"
 
