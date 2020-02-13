@@ -11,11 +11,11 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
 endif()
 
 find_package(Qt5Network CONFIG
-    PATHS D:/Programms/QT/5.12.6/mingw73_64/lib/cmake/Qt5Network
+    PATHS C:/Qt/5.12.3/mingw73_64/lib/cmake/Qt5Network
     NO_DEFAULT_PATH
     )
 find_package(Qt5Widgets CONFIG
-         PATHS D:/Programms/QT/5.12.6/mingw73_64/lib/cmake/Qt5Widgets
+         PATHS C:/Qt/5.12.3/mingw73_64/lib/cmake/Qt5Widgets
          Qt5Network CONFIG
       )
 list(APPEND THIRD_PARTY_LIBS Qt5::Widgets Qt5::Core Qt5::Gui Qt5::Network)
